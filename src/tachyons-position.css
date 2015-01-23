@@ -1,4 +1,6 @@
-@import "queries";
+@custom-media --breakpoint-not-small screen and (max-width: 48em);
+@custom-media --breakpoint-medium screen and (min-width: 48em) and (max-width: 64em);
+@custom-media --breakpoint-large screen and (min-width: 64em);
 
 /*
 
@@ -41,7 +43,7 @@
 .center { margin: 0 auto; }
 .centered { margin: 0 auto; }
 
-@include break(not-small) {
+@media (--breakpoint-not-small) {
   .pos-stat-ns { position: static; }
   .pos-rel-ns  { position: relative; }
   .pos-abs-ns  { position: absolute; }
@@ -67,7 +69,7 @@
   .center-ns { margin: 0 auto; }
 }
 
-@include break(medium) {
+@media (--breakpoint-medium) {
   .pos-stat-m { position: static; }
   .pos-rel-m  { position: relative; }
   .pos-abs-m  { position: absolute; }
@@ -93,7 +95,7 @@
   .center-m { margin: 0 auto; }
 }
 
-@include break(large) {
+@media (--breakpoint-large) {
   .pos-stat-l { position: static; }
   .pos-rel-l  { position: relative; }
   .pos-abs-l  { position: absolute; }
