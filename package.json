@@ -2,7 +2,7 @@
   "name": "tachyons-position",
   "version": "1.0.0",
   "style": "tachyons-position.css",
-  "homepage": "http://mrmrs.io/tachyons-position",
+  "homepage": "http://github.com/mrmrs/tachyons-position",
   "description": "Performance based css module.",
   "keywords": [
     "oocss",
