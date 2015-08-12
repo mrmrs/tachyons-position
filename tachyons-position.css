@@ -16,10 +16,6 @@
   position: absolute;
 }
 
-.pos-fix {
-  position: fixed;
-}
-
 /* Values */
 
 .top-0 {
@@ -117,10 +113,6 @@
     position: absolute;
   }
 
-  .pos-fix-ns {
-    position: fixed;
-  }
-
   .top-0-ns {
     top: 0;
   }
@@ -211,10 +203,6 @@
     position: absolute;
   }
 
-  .pos-fix-m {
-    position: fixed;
-  }
-
   .top-0-m {
     top: 0;
   }
@@ -303,10 +291,6 @@
 
   .pos-abs-l {
     position: absolute;
-  }
-
-  .pos-fix-l {
-    position: fixed;
   }
 
   .top-0-l {
