@@ -16,7 +16,7 @@
   position: absolute;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (min-width: 48em) {
   .pos-stat-ns {
     position: static;
   }
