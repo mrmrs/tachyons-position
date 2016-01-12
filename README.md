@@ -1,10 +1,10 @@
-# tachyons-position 3.1.0
+# tachyons-position 4.0.1
 
 Performance based css module.
 
 #### Stats
 
-192 | 12 | 12
+213 | 16 | 16
 ---|---|---
 bytes | selectors | declarations
 
@@ -64,20 +64,24 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .pos-stat { position: static; }
 .pos-rel { position: relative; }
 .pos-abs { position: absolute; }
+.pos-fix { position: fixed; }
 @media screen and (min-width: 48em) {
  .pos-stat-ns { position: static; }
  .pos-rel-ns { position: relative; }
  .pos-abs-ns { position: absolute; }
+ .pos-fix-ns { position: fixed; }
 }
 @media screen and (min-width: 48em) and (max-width: 64em) {
  .pos-stat-m { position: static; }
  .pos-rel-m { position: relative; }
  .pos-abs-m { position: absolute; }
+ .pos-fix-m { position: fixed; }
 }
 @media screen and (min-width: 64em) {
  .pos-stat-l { position: static; }
  .pos-rel-l { position: relative; }
  .pos-abs-l { position: absolute; }
+ .pos-fix-l { position: fixed; }
 }
 ```
 
