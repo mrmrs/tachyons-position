@@ -2,15 +2,15 @@
   "name": "tachyons-position",
   "version": "4.1.0",
   "style": "tachyons-position.css",
-  "homepage": "http://github.com/mrmrs/tachyons-position",
+  "homepage": "http://github.com/tachyons-css/tachyons-position",
   "description": "Performance based css module.",
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/tachyons-position.git"
+    "url": "http://github.com/tachyons-css/tachyons-position.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/tachyons-position/issues",
+    "url": "https://github.com/tachyons-css/tachyons-position/issues",
     "email": "hi@mrmrs.cc"
   },
   "author": {
