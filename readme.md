@@ -1,4 +1,4 @@
-# tachyons-position 4.0.1
+# tachyons-position 4.1.2
 
 Performance based css module.
 
