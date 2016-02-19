@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-213 | 16 | 16
+210 | 16 | 16
 ---|---|---
 bytes | selectors | declarations
 
@@ -61,27 +61,27 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
     POSITIONING
 
  */
-.pos-stat { position: static; }
-.pos-rel { position: relative; }
-.pos-abs { position: absolute; }
-.pos-fix { position: fixed; }
+.static { position: static; }
+.relative { position: relative; }
+.absolute { position: absolute; }
+.fixed { position: fixed; }
 @media screen and (min-width: 48em) {
- .pos-stat-ns { position: static; }
- .pos-rel-ns { position: relative; }
- .pos-abs-ns { position: absolute; }
- .pos-fix-ns { position: fixed; }
+ .static-ns { position: static; }
+ .relative-ns { position: relative; }
+ .absolute-ns { position: absolute; }
+ .fixed-ns { position: fixed; }
 }
 @media screen and (min-width: 48em) and (max-width: 64em) {
- .pos-stat-m { position: static; }
- .pos-rel-m { position: relative; }
- .pos-abs-m { position: absolute; }
- .pos-fix-m { position: fixed; }
+ .static-m { position: static; }
+ .relative-m { position: relative; }
+ .absolute-m { position: absolute; }
+ .fixed-m { position: fixed; }
 }
 @media screen and (min-width: 64em) {
- .pos-stat-l { position: static; }
- .pos-rel-l { position: relative; }
- .pos-abs-l { position: absolute; }
- .pos-fix-l { position: fixed; }
+ .static-l { position: static; }
+ .relative-l { position: relative; }
+ .absolute-l { position: absolute; }
+ .fixed-l { position: fixed; }
 }
 ```
 
