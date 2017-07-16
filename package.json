@@ -1,6 +1,6 @@
 {
   "name": "tachyons-position",
-  "version": "6.0.5",
+  "version": "6.0.6",
   "style": "src/tachyons-position.css",
   "main": "src/tachyons-position.css",
   "description": "Performance based css module.",
@@ -21,7 +21,7 @@
   "license": "ISC",
   "devDependencies": {
     "tachyons-cli": "^1.0.11",
-    "watch": "^1.0.1"
+    "watch": "^1.0.2"
   },
   "scripts": {
     "start": "npm run build:watch",
